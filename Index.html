@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burger King - Order Online</title>
+<style>
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:#fff;color:#1a1a1a}
+header{background:#d62300;color:#fff;padding:16px 20px;text-align:center;font-weight:900;font-size:24px}
+.hero{background:linear-gradient(135deg,#d62300,#502314);color:#fff;text-align:center;padding:60px 20px}
+.hero h1{font-size:38px;margin:0 0 10px}
+.hero p{font-size:18px;margin:0 0 20px}
+.btn{background:#f5a623;color:#fff;border:none;padding:14px 24px;border-radius:12px;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none;display:inline-block}
+.container{max-width:1000px;margin:auto;padding:40px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{border:1px solid #eee;border-radius:16px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+.card img{width:100%;height:180px;object-fit:cover}
+.card-body{padding:16px}
+.price{color:#d62300;font-weight:800;font-size:22px;margin:10px 0}
+footer{background:#502314;color:#fff;text-align:center;padding:30px 20px;margin-top:40px}
+.deal{background:#f5a623;color:#fff;text-align:center;padding:14px;font-weight:700}
+</style>
+</head>
+<body>
+
+<header>BURGER KING</header>
+
+<section class="hero">
+  <h1>Flame-Grilled. Your Way.</h1>
+  <p>Order online for pickup</p>
+  <a href="#menu" class="btn">Order Now</a>
+</section>
+
+<div class="deal">🔥 $5.99 Whopper Meal - Today Only</div>
+
+<section class="container" id="menu">
+  <h2 style="margin-bottom:20px">Menu</h2>
+  <div class="grid">
+    
+    <!-- ITEM 1: Replace the link in href with your Stripe Payment Link -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1568901346375-23c9450a23s?auto=format&fit=crop&w=600&q=80" alt="Whopper Meal">
+      <div class="card-body">
+        <h3>Whopper Meal</h3>
+        <p>Whopper + Fries + Drink</p>
+        <p class="price">$5.99</p>
+        <a href="PASTE_YOUR_STRIPE_LINK_1_HERE" class="btn" style="width:100%">Order Now</a>
+      </div>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603360946369-dc9b5110978f?auto=format&fit=crop&w=600&q=80" alt="Chicken Fries">
+      <div class="card-body">
+        <h3>Chicken Fries</h3>
+        <p>9pc crispy chicken strips</p>
+        <p class="price">$3.99</p>
+        <a href="PASTE_YOUR_STRIPE_LINK_2_HERE" class="btn" style="width:100%">Order Now</a>
+      </div>
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80" alt="Fries">
+      <div class="card-body">
+        <h3>King Fries</h3>
+        <p>Large crispy fries</p>
+        <p class="price">$2.49</p>
+        <a href="PASTE_YOUR_STRIPE_LINK_3_HERE" class="btn" style="width:100%">Order Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Burger King Demo Site
+</footer>
+
+</body>
+</html
